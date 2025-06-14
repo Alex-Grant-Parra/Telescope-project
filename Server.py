@@ -89,4 +89,4 @@ print(f"Running on -> {gethostname()}")
 debugMode = False
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=25566, debug=debugMode)
+    app.run(host="0.0.0.0", port=80, debug=debugMode)
